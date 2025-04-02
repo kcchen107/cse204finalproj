@@ -86,15 +86,15 @@ const App = () => {
         <h1>KC Tutoring</h1>
       </header>
       <nav>
-        <a href="#about">About Me</a>
+        <a href="#about">About the Founder</a>
         <a href="#success">Success Stories</a>
         <a href="#packages">Packages</a>
-        <a href="#contact">Contact Me</a>
+        <a href="#contact">Contact</a>
       </nav>
 
       <main>
         <section id="about">
-          <h2>About Me</h2>
+          <h2>About the Founder</h2>
           <div className="card">
             <img src="my-photo.jpg" alt="My Photo" style={{ maxWidth: "100px" }} />
             <p>
@@ -105,7 +105,7 @@ const App = () => {
 
 
         <section id="success">
-          <h2>Success Stories</h2>
+          <h2>Hear Success Stories From Our Students</h2>
 
           {successStories.length > 0 && (
             <div>
