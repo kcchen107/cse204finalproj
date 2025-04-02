@@ -1,0 +1,78 @@
+.packages-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+
+.packages-gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.955);
+    border: 5px solid rgba(0, 0, 0, 0.955);
+    transition: all 0.3s ease-in-out;
+}
+
+.packages-gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border: 5px solid #3498db;
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.955);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.close,
+.prev,
+.next {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.944);
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 1100;
+}
+
+.close {
+    top: 15px;
+    right: 20px;
+}
+
+.prev {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.close:hover,
+.prev:hover,
+.next:hover {
+    color: #3498db;
+}
+
+.gallery-title h2 {
+    font-size: clamp(3rem, 6vw, 70px);
+}
