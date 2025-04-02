@@ -96,10 +96,10 @@ const App = () => {
         <section id="about">
           <h1>About Us</h1>
           <div className="card">
-            <img src="my-photo.jpg" alt="My Photo" style={{ maxWidth: "100px" }} />
             <h2> Founder Background</h2>
+            <img src="my-photo.jpg" alt="My Photo" style={{ maxWidth: "100px" }} />
             <p>
-              KC Chen is a tutor with years of experience helping students excel in their academics.
+              KC Chen is a tutor with 7+ years of experience helping students excel in their academics.
             </p>
             <h2>Mission Statement</h2>
             <p>
