@@ -97,11 +97,17 @@ const App = () => {
           <h1>About Us</h1>
           <div className="card">
             <img src="my-photo.jpg" alt="My Photo" style={{ maxWidth: "100px" }} />
+            <h2> Founder Background</h2>
             <p>
-              Founder KC Chen - I am a passionate tutor with years of experience helping students excel in their academics.
+              KC Chen is a tutor with years of experience helping students excel in their academics.
             </p>
+            <h2>Mission Statement</h2>
             <p>
-
+            We provide the best tutoring service to ensure students meet their academic goals while positively impacting their lives.
+            </p>
+            <h2>Guarantee</h2>
+            <p>
+            We want you to be 100% satisfied with every session and embrace feedback to enhance your experience.
             </p>
           </div>
         </section>
