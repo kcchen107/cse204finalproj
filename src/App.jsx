@@ -86,7 +86,7 @@ const App = () => {
         <h1>KC Tutoring</h1>
       </header>
       <nav>
-        <a href="#about">About the Founder</a>
+        <a href="#about">About Us</a>
         <a href="#success">Success Stories</a>
         <a href="#packages">Packages</a>
         <a href="#contact">Contact</a>
@@ -94,18 +94,21 @@ const App = () => {
 
       <main>
         <section id="about">
-          <h2>About the Founder</h2>
+          <h1>About Us</h1>
           <div className="card">
             <img src="my-photo.jpg" alt="My Photo" style={{ maxWidth: "100px" }} />
             <p>
-              I am a passionate tutor with years of experience helping students excel in their academics.
+              Founder KC Chen - I am a passionate tutor with years of experience helping students excel in their academics.
+            </p>
+            <p>
+
             </p>
           </div>
         </section>
 
 
         <section id="success">
-          <h2>Hear Success Stories From Our Students</h2>
+          <h1>Hear Success Stories From Our Students</h1>
 
           {successStories.length > 0 && (
             <div>
@@ -128,7 +131,7 @@ const App = () => {
 
 
         <section id="packages">
-          <h2>Packages</h2>
+          <h1>Packages</h1>
           <div className="card">Package 1: Basic Tutoring</div>
           <div className="card">Package 2: Intermediate Tutoring</div>
           <div className="card">Package 3: Advanced Tutoring</div>
@@ -143,7 +146,7 @@ const App = () => {
         </section>
 
         <section id="contact">
-          <h2>Contact Me</h2>
+          <h1>Contact Me</h1>
           <form onSubmit={handleFormSubmit}>
             <input
               type="text"
