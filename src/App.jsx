@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
 import Stories from "./stories";
+import StoriesTWO from "./storiesTWO";
 import { motion, useInView } from "framer-motion";
 import Gallery from "./gallery";
 
@@ -134,8 +135,9 @@ const App = () => {
             <Stories stories={stories} />
           </div>
         </Section>
-
-
+        
+        <StoriesTWO></StoriesTWO>
+        
         <section id="packages">
           <h1>Packages</h1>
           <div className="card">Package 1: Basic Tutoring</div>
