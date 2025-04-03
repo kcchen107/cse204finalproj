@@ -43,6 +43,26 @@ export default function App() {
         "dragon"
     ]
 
+    const [currentStories, setCurrentStories] = useState(null);
+    const [currentStoriesImages, setCurrentStoriesImages] = useState(null);
+    const [currentStoriesBack, setCurrentStoriesBacke] = useState(null);
+
+    const showPrevImage = () => {
+        const newIndex = (currentIndex - 1 + stories.length) % stories.length;
+        setCurrentStories(stories[newIndex]);
+        setCurrentStoriesImages(storiesImages[newIndex]);
+        setCurrentStoriesBacke(storiesBack[newIndex]);
+        setCurIndex(newIndex);
+    };
+
+    const showNextImage = () => {
+        const newIndex = (currentIndex + 1) % stories.length;
+        setCurrentImage(stories[newIndex]);
+        setCurrentImage(storiesImages[newIndex]);
+        setCurrentImage(storiesBack[newIndex]);
+        setCurIndex(newIndex);
+    };
+
     return (
         <div className="App">
             <motion.div
@@ -63,7 +83,7 @@ export default function App() {
                     >
                         {/* whatever that goes inside card */}
                         <p>{stories[curIndex]}</p>      {/* this is your caption, on the front side of your card */}
-                        <img src={storiesImages[curIndex]}/>     {/* this is your image, on the front side */}
+                        <img src={storiesImages[curIndex]} />     {/* this is your image, on the front side */}
                     </motion.div>
 
                     {/* End of front side */}
@@ -94,6 +114,28 @@ export default function App() {
                     </button>
                 </motion.div>
             </motion.div>
+
+            {/* below is div for previous and next */}
+            <a
+                className="prev"
+                onClick={(e) => {
+                    e.stopPropagation();
+                    showPrevStories();
+                }}
+            >
+                &#10094;
+            </a>
+            <a
+                className="next"
+                onClick={(e) => {
+                    e.stopPropagation();
+                    showNextStories();
+                }}
+            >
+                &#10095;
+            </a>
+
         </div>
+
     );
 };

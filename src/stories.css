@@ -20,13 +20,13 @@
     height: 100%;
     box-shadow: 4px 8px 16px rgb(66, 66, 66);
     border-radius: 8px;
-    background: rgb(173, 28, 28);
+    background: rgb(239, 209, 209);
   }
   
   .flipButton {
     background-color: blue;
   }
-  
+
   .front,
   .back {
     backface-visibility: hidden;
