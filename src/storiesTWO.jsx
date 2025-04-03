@@ -86,7 +86,7 @@ export default function App() {
                     {/* End of back side */}
 
 
-                    <button onClick={() => {
+                    <button className="flipButton" onClick={() => {
                         setFlip((prevState) => !prevState);
                         curIndex = curIndex + 1;
                     }}>
