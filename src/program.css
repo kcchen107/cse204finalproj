@@ -13,9 +13,10 @@
 
 
 .program-tips-section .section-title {
+    padding: 5rem;
     font-size: 2rem;
     font-weight: bold;
-    color: rgb(183, 251, 175);
+    color: rgb(16, 29, 14);
     margin-bottom: 20px;
 }
 
