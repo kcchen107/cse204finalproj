@@ -5,6 +5,7 @@ import Stories from "./stories";
 import StoriesTWO from "./storiesTWO";
 import { motion, useInView } from "framer-motion";
 import Gallery from "./gallery";
+import Program from "./program";
 
 
 const App = () => {
@@ -83,6 +84,8 @@ const App = () => {
 
   return (
     <div>
+
+
       <header>
         <h1>KC Tutoring</h1>
       </header>
@@ -103,11 +106,11 @@ const App = () => {
             </p>
             <h2>Mission Statement</h2>
             <p>
-            We provide the best tutoring service to ensure students meet their academic goals while positively impacting their lives.
+              We provide the best tutoring service to ensure students meet their academic goals while positively impacting their lives.
             </p>
             <h2>Guarantee</h2>
             <p>
-            We want you to be 100% satisfied with every session and embrace feedback to enhance your experience.
+              We want you to be 100% satisfied with every session and embrace feedback to enhance your experience.
             </p>
           </div>
         </section>
@@ -134,8 +137,10 @@ const App = () => {
             <Stories stories={stories} />
           </div>
         </Section>
-        
+
         <StoriesTWO></StoriesTWO>
+
+        <Program></Program>
 
         <section id="packages">
           <h1>Packages</h1>

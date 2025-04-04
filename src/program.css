@@ -1,0 +1,112 @@
+.program-tips-section {
+    padding-bottom: 30px;
+    margin-top: 0;
+    z-index: 100;
+}
+
+
+.program-tips-section {
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.program-tips-section .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(183, 251, 175);
+    margin-bottom: 20px;
+}
+
+
+.program-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+
+.program-item {
+    line-height: 1.5;
+}
+
+
+.flashcards-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px 0;
+    max-width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+.flashcard {
+    flex: 0 0 auto;
+    width: 175px;
+    height: 200px;
+}
+
+
+.flashcards-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+
+.flashcards-container::-webkit-scrollbar-thumb {
+    background-color: rgba(183, 251, 175, 0.8);
+    border-radius: 4px;
+}
+
+
+.flashcards-container::-webkit-scrollbar-track {
+    background-color: rgba(170, 170, 170, 0.4);
+}
+
+
+.flashcard-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+
+.flashcard.flipped .flashcard-inner {
+    transform: rotateY(180deg);
+}
+
+
+.flashcard-front,
+.flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.flashcard-front {
+    background-color: rgb(183, 251, 175);
+    color: rgb(52, 59, 106);
+}
+
+
+.flashcard-back {
+    background-color: rgb(183, 251, 175);
+    color: rgb(52, 59, 106);
+    transform: rotateY(180deg);
+}
