@@ -21,6 +21,7 @@ export default function App() {
     ]
 
     // array to store links to your actual photos.
+    
     const storiesImages = [
         "https://images.unsplash.com/photo-1506057213367-028a17ec52e5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
         "https://images.unsplash.com/photo-1518963534257-f901d4d46f59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -43,26 +44,6 @@ export default function App() {
         "dragon"
     ]
 
-    const [currentStories, setCurrentStories] = useState(null);
-    const [currentStoriesImages, setCurrentStoriesImages] = useState(null);
-    const [currentStoriesBack, setCurrentStoriesBacke] = useState(null);
-
-    const showPrevImage = () => {
-        const newIndex = (currentIndex - 1 + stories.length) % stories.length;
-        setCurrentStories(stories[newIndex]);
-        setCurrentStoriesImages(storiesImages[newIndex]);
-        setCurrentStoriesBacke(storiesBack[newIndex]);
-        setCurIndex(newIndex);
-    };
-
-    const showNextImage = () => {
-        const newIndex = (currentIndex + 1) % stories.length;
-        setCurrentImage(stories[newIndex]);
-        setCurrentImage(storiesImages[newIndex]);
-        setCurrentImage(storiesBack[newIndex]);
-        setCurIndex(newIndex);
-    };
-
     return (
         <div className="App">
             <motion.div
@@ -83,7 +64,11 @@ export default function App() {
                     >
                         {/* whatever that goes inside card */}
                         <p>{stories[curIndex]}</p>      {/* this is your caption, on the front side of your card */}
+                        
+                        <div className="storiesImages">
                         <img src={storiesImages[curIndex]} />     {/* this is your image, on the front side */}
+                        </div>
+                    
                     </motion.div>
 
                     {/* End of front side */}
@@ -114,26 +99,6 @@ export default function App() {
                     </button>
                 </motion.div>
             </motion.div>
-
-            {/* below is div for previous and next */}
-            <a
-                className="prev"
-                onClick={(e) => {
-                    e.stopPropagation();
-                    showPrevStories();
-                }}
-            >
-                &#10094;
-            </a>
-            <a
-                className="next"
-                onClick={(e) => {
-                    e.stopPropagation();
-                    showNextStories();
-                }}
-            >
-                &#10095;
-            </a>
 
         </div>
 
