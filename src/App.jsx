@@ -138,9 +138,16 @@ const App = () => {
           </div>
         </Section>
 
-        <StoriesTWO></StoriesTWO>
 
-        <Program></Program>
+        <Section id="storiesSecond" direction="left">
+          <StoriesTWO />
+        </Section>
+
+
+        <Section id="programPackages" direction="left">
+          <Program> </Program>
+        </Section>
+
 
         <section id="packages">
           <h1>Packages</h1>
