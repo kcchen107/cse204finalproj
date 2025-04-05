@@ -144,9 +144,14 @@ const App = () => {
         </Section>
 
 
+        <Program> </Program>
+
+        {/* 
+          Use following code if want packages to slide in from left:
         <Section id="programPackages">
           <Program> </Program>
-        </Section>
+        </Section> 
+        */}
 
 
         <section id="packages">
