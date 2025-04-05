@@ -144,7 +144,7 @@ const App = () => {
         </Section>
 
 
-        <Section id="programPackages" direction="left">
+        <Section id="programPackages">
           <Program> </Program>
         </Section>
 
