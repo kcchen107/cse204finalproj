@@ -22,16 +22,16 @@ return (
           routine: "Calculus, Geometry, Trigonometry",
         },
         {
-          day: "college prep",
-          routine: "SAT, ACT, College Essays",
-        },
-        {
-          day: "Language",
-          routine: "English, Spanish, Chinese",
+          day: "English/Reading",
+          routine: "English, Reading, Creative Writing",
         },
         {
           day: "Science",
           routine: "Biology, Environmental Science",
+        },
+        {
+          day: "Science",
+          routine: "Biology, Environmental Science, Physics",
         },
         {
           day: "Arts",
