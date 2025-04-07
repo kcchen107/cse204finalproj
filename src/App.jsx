@@ -93,6 +93,7 @@ const App = () => {
         <a href="#about">About Us</a>
         <a href="#success">Success Stories</a>
         <a href="#packages">Packages</a>
+        <a href="#programs">Programs</a>
         <a href="#contact">Contact</a>
       </nav>
 
