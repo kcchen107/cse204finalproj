@@ -156,7 +156,6 @@ const App = () => {
         </Section>
 
 
-        <Program> </Program>
 
         {/* 
           Use following code if want packages to slide in from left:
@@ -173,13 +172,12 @@ const App = () => {
           <div className="card">Package 3: Advanced Tutoring</div>
         </section>
 
+        <Program> </Program>
+
         <Section id="gallery" direction="left">
           <Gallery />
         </Section>
 
-        <section id="quiz">
-          <h2>Quiz - See which package best fits your goals</h2>
-        </section>
 
         <section id="contact">
           <h1>Contact Me</h1>
