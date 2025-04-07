@@ -97,12 +97,6 @@ const App = () => {
       </nav>
 
       <main>
-        <section id="packages">
-          <h1>Packages</h1>
-          <div className="card">Package 1: Basic Tutoring</div>
-          <div className="card">Package 2: Intermediate Tutoring</div>
-          <div className="card">Package 3: Advanced Tutoring</div>
-        </section>
 
         <section id="about">
           <h1>About Us</h1>
