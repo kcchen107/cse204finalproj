@@ -14,12 +14,12 @@ return (
           routine: "Precalculus and Calculus",
         },
         {
-          day: "history",
-          routine: "US History, Global History",
+          day: "College Prep",
+          routine: "SAT, ACT, College Essays",
         },
         {
-          day: "reading",
-          routine: "creative writing, essays",
+          day: "Math",
+          routine: "Calculus, Geometry, Trigonometry",
         },
         {
           day: "college prep",
