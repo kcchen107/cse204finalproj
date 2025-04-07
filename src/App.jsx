@@ -107,18 +107,29 @@ const App = () => {
         <section id="about">
           <h1>About Us</h1>
           <div className="card">
-            <h2> Founder Background</h2>
-            <p>
-              KC Chen is a tutor with 7+ years of experience helping students excel in their academics.
-            </p>
-            <h2>Mission Statement</h2>
-            <p>
-              We provide the best tutoring service to ensure students meet their academic goals while positively impacting their lives.
-            </p>
-            <h2>Guarantee</h2>
-            <p>
-              We want you to be 100% satisfied with every session and embrace feedback to enhance your experience.
-            </p>
+
+            <div className="card">
+              <h2> Founder Background</h2>
+              <p>
+                KC Chen is a tutor with 7+ years of experience helping students excel in their academics.
+              </p>
+            </div>
+
+            <div className="card">
+              <h2>Mission Statement</h2>
+              <p>
+                We provide the best tutoring service to ensure students meet their academic goals while positively impacting their lives.
+              </p>
+            </div>
+
+            <div className="card">
+              <h2>Guarantee</h2>
+              <p>
+                We want you to be 100% satisfied with every session and embrace feedback to enhance your experience.
+              </p>
+
+            </div>
+
           </div>
         </section>
 
