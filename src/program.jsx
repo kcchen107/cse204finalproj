@@ -26,16 +26,16 @@ return (
           routine: "English, Reading, Creative Writing",
         },
         {
-          day: "Science",
-          routine: "Biology, Environmental Science",
+          day: "History",
+          routine: "US History, Ancient Civilization, Global History",
         },
         {
           day: "Science",
           routine: "Biology, Environmental Science, Physics",
         },
         {
-          day: "Arts",
-          routine: "Acrylic, Water color, Pastels, Charcoal",
+          day: "Art",
+          routine: "Acrylic Paint, Digital Art, Pencils, Charcoal",
         },
       ].map((item, index) => (
         <div
