@@ -43,6 +43,8 @@
 
 .card {
   padding: 2em;
+  background-color: red;
+  color: #124E78
 }
 
 .read-the-docs {
