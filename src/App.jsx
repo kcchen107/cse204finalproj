@@ -151,12 +151,6 @@ const App = () => {
         </Section>
 
 
-        <Section id="storiesSecond" direction="left">
-          <StoriesTWO />
-        </Section>
-
-
-
         {/* 
           Use following code if want packages to slide in from left:
         <Section id="programPackages">
@@ -181,40 +175,9 @@ const App = () => {
 
         <section id="contact">
           <h1>Contact Me</h1>
-          <form onSubmit={handleFormSubmit}>
-            <input
-              type="text"
-              name="fullName"
-              placeholder="Full Name"
-              value={formData.fullName}
-              onChange={handleInputChange}
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              value={formData.email}
-              onChange={handleInputChange}
-              required
-            />
-            <input
-              type="text"
-              name="phone"
-              placeholder="Phone Number"
-              value={formData.phone}
-              onChange={handleInputChange}
-              required
-            />
-            <textarea
-              name="goal"
-              placeholder="Goal of Tutoring"
-              value={formData.goal}
-              onChange={handleInputChange}
-              required
-            />
-            <button type="submit">Submit</button>
-          </form>
+          <Section id="storiesSecond" direction="left">
+          <StoriesTWO />
+        </Section>
         </section>
 
 
