@@ -166,7 +166,17 @@ const App = () => {
           <div className="card">Package 3: Advanced Tutoring (purchase 28 hour bundle)</div>
         </section>
 
+
+        <section id="programs">
+          <h1>Program Types</h1>
+        </section>
         <Program> </Program>
+
+
+        <section id="corevalues">
+          <h1>Core Values For All Programs</h1>
+        </section>
+
 
         <Section id="gallery" direction="left">
           <Gallery />
@@ -176,8 +186,8 @@ const App = () => {
         <section id="contact">
           <h1>Contact Me</h1>
           <Section id="storiesSecond" direction="left">
-          <StoriesTWO />
-        </Section>
+            <StoriesTWO />
+          </Section>
         </section>
 
 

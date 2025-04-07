@@ -95,7 +95,7 @@ export default function App() {
                         setFlip((prevState) => !prevState);
                         curIndex = curIndex + 1;
                     }}>
-                        Click here to view student story
+                        Click here to view contact information.
                     </button>
                 </motion.div>
             </motion.div>

@@ -6,7 +6,7 @@ export default function App() {
 
 return (
   <section id="program" className="program-tips-section">
-    <h1 className="section-title">Program Types</h1>
+    <h1 className="section-title"></h1>
     <div className="flashcards-container">
       {[
         {
