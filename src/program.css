@@ -17,7 +17,7 @@
 .program-tips-section .section-title {
     font-size: 2rem;
     font-weight: bold;
-    color: rgb(16, 29, 14);
+    color: rgb(29, 20, 14);
     margin-bottom: 20px;
 }
 
@@ -60,7 +60,7 @@
 
 
 .flashcards-container::-webkit-scrollbar-thumb {
-    background-color: rgba(183, 251, 175, 0.8);
+    background-color: #6E0E0A;
     border-radius: 4px;
 }
 
@@ -102,13 +102,13 @@
 
 
 .flashcard-front {
-    background-color: rgb(183, 251, 175);
-    color: rgb(52, 59, 106);
+    background-color: #6E0E0A;
+    color: #EAE0D5;
 }
 
 
 .flashcard-back {
-    background-color: rgb(183, 251, 175);
-    color: rgb(52, 59, 106);
+    background-color: rgb(23, 62, 19);
+    color: #EAE0D5;
     transform: rotateY(180deg);
 }

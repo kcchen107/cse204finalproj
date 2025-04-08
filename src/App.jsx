@@ -169,12 +169,14 @@ const App = () => {
             <div className="card">Package 2: Intermediate Tutoring (purchase 15 hour bundle)</div>
             <div className="card">Package 3: Advanced Tutoring (purchase 28 hour bundle)</div>
           </div>
-          
+
         </section>
 
 
         <section id="programs">
           <h1>Program Types</h1>
+          <h3 id="flipDirections">Flip over card to view program offerings.</h3>
+
         </section>
         <Program> </Program>
 

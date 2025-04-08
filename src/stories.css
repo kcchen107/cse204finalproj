@@ -21,11 +21,14 @@
     height: 100%;
     box-shadow: 4px 8px 16px rgb(66, 66, 66);
     border-radius: 8px;
-    background: rgb(239, 209, 209);
+    background: #19535F;
+    padding: 1rem;
   }
   
   .flipButton {
-    background-color: blue;
+    background-color: rgb(60, 18, 72);
+    color: #EAE0D5;
+    padding: 1rem;
   }
 
   .front,

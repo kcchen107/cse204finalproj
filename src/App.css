@@ -28,6 +28,9 @@
   padding-bottom: 3rem;
 }
 
+#flipDirections {
+  padding-top: 2rem;
+}
 /* In program.css padding-bottom is space between the green slidebar and "Core Values Present Across All Programs*/
 
 /* In gallery.css, padding-top define space between "Core Values Present" and column image gallery */
@@ -98,7 +101,7 @@ body {
 
 header {
   background-color: #003366;
-  color: white;
+  color: rgb(250, 250, 250);
   padding: 15px;
   text-align: center;
 }
@@ -112,7 +115,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: rgb(251, 251, 251);
   text-decoration: none;
   font-weight: bold;
 }
@@ -146,7 +149,7 @@ section {
 button {
   padding: 10px 15px;
   background-color: #0055a4;
-  color: white;
+  color: rgb(246, 246, 246);
   border: none;
   border-radius: 5px;
   cursor: pointer;
