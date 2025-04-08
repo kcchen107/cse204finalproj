@@ -7,6 +7,10 @@
   padding-top: 10rem;
 }
 
+.card {
+  padding-top: 10rem;
+}
+
 #success {
   padding-top: 10rem;
   padding-bottom: 5rem;
@@ -17,6 +21,13 @@
 }
 
 #programs {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+/* In program.css padding-bottom is space between the green slidebar and "Core Values Present Across All Programs*/
+
+#contact {
   padding-top: 10rem;
   padding-bottom: 5rem;
 }

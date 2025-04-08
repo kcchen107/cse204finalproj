@@ -122,8 +122,8 @@ const App = () => {
               <p>
                 We want you to be 100% satisfied with every session and embrace feedback to enhance your experience.
               </p>
-
             </div>
+            
 
           </div>
         </section>
