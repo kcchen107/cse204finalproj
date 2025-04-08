@@ -94,6 +94,7 @@ const App = () => {
         <a href="#success">Success Stories</a>
         <a href="#packages">Packages</a>
         <a href="#programs">Programs</a>
+        <a href="#corevalues">Core Values</a>
         <a href="#contact">Contact</a>
       </nav>
 
@@ -175,7 +176,7 @@ const App = () => {
 
 
         <section id="corevalues">
-          <h1>Core Values For All Programs</h1>
+          <h1>Core Values Present Across All Programs</h1>
         </section>
 
 
