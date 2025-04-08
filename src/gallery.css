@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 10rem;
+    padding-top: 3rem;
 }
 
 .packages-gallery img {

@@ -12,27 +12,27 @@
 }
 
 #success {
-  padding-top: 10rem;
-  padding-bottom: 5rem;
+  padding-top: 15rem;
+  padding-bottom: 3rem;
 }
 
 #packages {
-  padding-top: 10rem;
+  padding-top: 15rem;
 }
 
 #programs {
-  padding-top: 10rem;
-  padding-bottom: 5rem;
+  padding-top: 15rem;
+  padding-bottom: 3rem;
 }
 
 /* In program.css padding-bottom is space between the green slidebar and "Core Values Present Across All Programs*/
 
 /* In gallery.css, padding-top define space between "Core Values Present" and column image gallery */
-/* In gallery.css, padding-bottom define space between column image gallery and "Contact Me" */
 
 #contact {
-  padding-top: 10rem;
+  padding-top: 15rem;
   padding-bottom: 5rem;
+  padding: 5rem;
 }
 
 #root {
