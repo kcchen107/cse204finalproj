@@ -3,6 +3,24 @@
   src: local("customfont"), url("./Abel-Regular.ttf") format("truetype");
 }
 
+#about {
+  padding-top: 10rem;
+}
+
+#success {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+#packages {
+  padding-top: 10rem;
+}
+
+#programs {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
