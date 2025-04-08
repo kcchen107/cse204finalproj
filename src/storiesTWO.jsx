@@ -10,7 +10,7 @@ export default function App() {
 
     // array to store the text above image, call it stories here as an example.
     const stories = [
-        "Resilience",
+        " ",
         "Courage",
         "Diligence",
         "Principle",
