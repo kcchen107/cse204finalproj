@@ -95,7 +95,7 @@ export default function App() {
                         setFlip((prevState) => !prevState);
                         curIndex = curIndex + 1;
                     }}>
-                        Click here to view contact information
+                        Click here to view the other side.
                     </button>
                 </motion.div>
             </motion.div>
