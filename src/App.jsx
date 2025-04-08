@@ -132,6 +132,7 @@ const App = () => {
 
         <section id="success">
           <h1>Hear Success Stories From Our Students</h1>
+          <h3 id="successDirections">Tap through student stories.</h3>
 
           {successStories.length > 0 && (
             <div>
@@ -183,6 +184,7 @@ const App = () => {
 
         <section id="corevalues">
           <h1>Core Values Present Across All Programs</h1>
+          <h3 id="coreValueDirections">Click to expand image.</h3>
         </section>
 
 
