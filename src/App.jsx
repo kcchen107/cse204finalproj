@@ -192,7 +192,7 @@ const App = () => {
 
 
         <section id="contact">
-          <h1 id="contactTitle">Contact Me</h1>
+          <h1 id="contactTitle">Contact Us</h1>
           <Section id="storiesSecond" direction="left">
             <StoriesTWO />
           </Section>
