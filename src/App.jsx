@@ -87,7 +87,7 @@ const App = () => {
 
 
       <header>
-        <h1>KC Tutoring</h1>
+        <h1>Chen Academy</h1>
       </header>
       <nav>
         <a href="#about">About Us</a>
@@ -101,7 +101,7 @@ const App = () => {
       <main>
 
         <section id="about">
-          <h1>About Us</h1>
+          <h1 id="aboutTitle">About Us</h1>
           <div className="card">
 
             <div className="card">
@@ -162,7 +162,7 @@ const App = () => {
 
 
         <section id="packages">
-          <h1>Packages</h1>
+          <h1 id="packagesTitle">Packages</h1>
           <div className="card">Package 1: Basic Tutoring (pay as you go)</div>
           <div className="card">Package 2: Intermediate Tutoring (purchase 15 hour bundle)</div>
           <div className="card">Package 3: Advanced Tutoring (purchase 28 hour bundle)</div>
@@ -186,7 +186,7 @@ const App = () => {
 
 
         <section id="contact">
-          <h1>Contact Me</h1>
+          <h1 id="contactTitle">Contact Me</h1>
           <Section id="storiesSecond" direction="left">
             <StoriesTWO />
           </Section>
