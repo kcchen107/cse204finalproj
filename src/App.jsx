@@ -124,7 +124,7 @@ const App = () => {
                 We want you to be 100% satisfied with every session and embrace feedback to enhance your experience.
               </p>
             </div>
-            
+
 
           </div>
         </section>
@@ -163,9 +163,13 @@ const App = () => {
 
         <section id="packages">
           <h1 id="packagesTitle">Packages</h1>
-          <div className="card">Package 1: Basic Tutoring (pay as you go)</div>
-          <div className="card">Package 2: Intermediate Tutoring (purchase 15 hour bundle)</div>
-          <div className="card">Package 3: Advanced Tutoring (purchase 28 hour bundle)</div>
+
+          <div className="card">
+            <div className="card">Package 1: Basic Tutoring (pay as you go)</div>
+            <div className="card">Package 2: Intermediate Tutoring (purchase 15 hour bundle)</div>
+            <div className="card">Package 3: Advanced Tutoring (purchase 28 hour bundle)</div>
+          </div>
+          
         </section>
 
 
