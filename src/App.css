@@ -16,6 +16,10 @@
   padding-bottom: 3rem;
 }
 
+#successDirections {
+  padding-top: 2rem;
+}
+
 #packages {
   padding-top: 15rem;
 }
@@ -32,6 +36,10 @@
   padding-top: 2rem;
 }
 /* In program.css padding-bottom is space between the green slidebar and "Core Values Present Across All Programs*/
+
+#coreValueDirections {
+  padding-top: 2rem;
+}
 
 /* In gallery.css, padding-top define space between "Core Values Present" and column image gallery */
 
