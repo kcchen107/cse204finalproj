@@ -31,7 +31,7 @@ return (
         },
         {
           day: "Science",
-          routine: "Biology, Environmental Science, Physics",
+          routine: "Computer Science, Environmental Science, Biology",
         },
         {
           day: "Art",

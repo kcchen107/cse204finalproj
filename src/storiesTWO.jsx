@@ -35,7 +35,7 @@ export default function App() {
 
     const storiesBack = [
         "cat",
-        "dog",
+        "kcchen108@gmail.com || +1(339)927-4411",
         "lizard",
         "kit",
         "mouse",

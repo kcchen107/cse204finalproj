@@ -3,6 +3,10 @@
   src: local("customfont"), url("./Abel-Regular.ttf") format("truetype");
 }
 
+#topBar {
+  width: 100%;
+}
+
 #about {
   padding-top: 5rem;
 }

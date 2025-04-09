@@ -85,18 +85,19 @@ const App = () => {
   return (
     <div>
 
-
-      <header>
-        <h1>Chen Academy</h1>
-      </header>
-      <nav>
-        <a href="#about">About Us</a>
-        <a href="#success">Success Stories</a>
-        <a href="#packages">Packages</a>
-        <a href="#programs">Programs</a>
-        <a href="#corevalues">Core Values</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div id="topBar">
+        <header>
+          <h1>Chen Academy</h1>
+        </header>
+        <nav>
+          <a href="#about">About Us</a>
+          <a href="#success">Success Stories</a>
+          <a href="#packages">Packages</a>
+          <a href="#programs">Programs</a>
+          <a href="#corevalues">Core Values</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
 
       <main>
 
