@@ -10,16 +10,16 @@ return (
     <div className="flashcards-container">
       {[
         {
-          day: "Package 1",
-          routine: "SAT, ACT, College Essays",
+          day: "Package 1 Details",
+          routine: "No minimum number of sessions. Do as many or as few sessions as you’d like.",
         },
         {
-          day: "Package 2",
-          routine: "Calculus, Geometry, Trigonometry",
+          day: "Package 2 Details",
+          routine: "Package deal of 15 hours with 10% savings!",
         },
         {
-          day: "Package 3",
-          routine: "English, Reading, Creative Writing",
+          day: "Package 3 Details",
+          routine: "Package deal of 28 hours with 10% savings! This package can be shared with siblings.",
         },
       ].map((item, index) => (
         <div
