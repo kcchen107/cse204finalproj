@@ -26,14 +26,6 @@ const App = () => {
   );
 
   const stories = [
-    "Resilience",
-    "Courage",
-    "Diligence",
-    "Principle",
-    "Hard Work",
-    "Consistency",
-    "Proven Results",
-    "Intelligence",
   ];
 
 
