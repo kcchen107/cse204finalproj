@@ -5,6 +5,7 @@
 
 #topBar {
   width: 100%;
+  margin: 0;
 }
 
 #about {
@@ -140,7 +141,8 @@ main {
 }
 
 section {
-  margin: 20px 0;
+/* code below centers page */
+  /* margin: 20px 0; */
   width: 80%;
 }
 
@@ -175,7 +177,7 @@ input,
 textarea {
   width: 100%;
   padding: 10px;
-  margin: 10px 0;
+  /* margin: 10px 0; */
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -192,7 +194,7 @@ textarea {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  /* margin: auto; */
 }
 
 /* Hide the images by default */
@@ -207,7 +209,7 @@ textarea {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  /* margin-top: -22px; */
   padding: 16px;
   color: white;
   font-weight: bold;
