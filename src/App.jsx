@@ -59,7 +59,7 @@ const App = () => {
 
 
   useEffect(() => {
-    fetch("https://type.fit/api/quotes")
+    fetch("https://thequoteshub.com/api/")
       .then((response) => response.json())
       .then((data) => setSuccessStories(data.slice(0, 5))); // Use 5 success stories
   }, []);

@@ -7,7 +7,7 @@
   width: 100%;
   margin: 0;
   position: fixed;
-  z-index: 2;
+  z-index: 1000;
 }
 
 #about {
@@ -15,6 +15,7 @@
 }
 
 #aboutTitle {
+  margin-top: 170px;
   padding-bottom: 3rem;
 }
 
@@ -27,13 +28,6 @@
   padding-top: 2rem;
 }
 
-#packages {
-  padding-top: 15rem;
-}
-#packagesTitle {
-  padding-bottom: 3rem;
-}
-
 #programs {
   padding-top: 15rem;
   padding-bottom: 3rem;
@@ -41,6 +35,13 @@
 
 #flipDirections {
   padding-top: 2rem;
+}
+
+#packages {
+  padding-top: 15rem;
+}
+#packagesTitle {
+  padding-bottom: 3rem;
 }
 
 #coreValueDirections {
