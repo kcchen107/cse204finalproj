@@ -35,7 +35,7 @@
 }
 
 
-.flashcards-container {
+.packages-flashcards-container {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -44,6 +44,7 @@
     max-width: 100%;
     justify-content: center;
     box-sizing: border-box;
+    margin-left: 200px;
 }
 
 
