@@ -1,22 +1,20 @@
 import React, { useState } from "react";
 import "./stories.css";
 import { motion } from "framer-motion";
-import { img } from "motion/react-m";
 
 const Stories = ({ stories }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const storiesImages = [
-    "growth.jpg",
-    "personalization.jpg",
-    "motivation.jpg",
-    "diligence.jpg",
-    "resilience.jpg",
-    "proven.jpg",
-    "tenacity.jpg",
-    "trustworthy.jpg"
-  ];
-
+    const storiesImages = [
+      "/growth.jpg",
+      "/personalization.jpg",
+      "/motivation.jpg",
+      "/diligence.jpg",
+      "/resilience.jpg",
+      "/proven.jpg",
+      "/tenacity.jpg",
+      "/trustworthy.jpg"
+    ];
 
   // const storiesImages = [
   //   "https://images.unsplash.com/photo-1506057213367-028a17ec52e5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -37,13 +35,10 @@ const Stories = ({ stories }) => {
     <div className="story-container">
       <div className="stories" onClick={handleStoriesClick}>
         <p className="story-title">{stories[currentIndex]}</p>
-        <motion.img
+        <img
           src={storiesImages[currentIndex]}
           alt={stories[currentIndex]}
           className="stories-image"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
         />
       </div>
       <div className="navigation-dots">
