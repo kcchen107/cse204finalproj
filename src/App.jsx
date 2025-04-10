@@ -177,7 +177,7 @@ const App = () => {
 
         <section id="programs">
           <h1>Program Types</h1>
-          <h3 id="flipDirections">Flip over card to view program offerings.</h3>
+          <h3 id="flipDirections">Flip over card to view a few of our program offerings.</h3>
 
         </section>
         <Program> </Program>
