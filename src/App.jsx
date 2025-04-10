@@ -182,7 +182,7 @@ const App = () => {
 
         <section id="corevalues">
           <h1>Core Values Present Across All Programs</h1>
-          <h3 id="coreValueDirections">At Chen Academy, we believe in aiming high, helping our students accomplish challenging tasks, and leaving positive impacts. Click to expand the images.
+          <h3 id="coreValueDirections">We believe in aiming high, helping students accomplish challenging tasks, and leaving positive impacts. Click to expand the images.
           </h3>
         </section>
 
