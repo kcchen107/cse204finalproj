@@ -6,6 +6,7 @@ import StoriesTWO from "./storiesTWO";
 import { motion, useInView } from "framer-motion";
 import Gallery from "./gallery";
 import Program from "./program";
+import Packages from "./packages";
 
 
 const App = () => {
@@ -131,15 +132,18 @@ const App = () => {
         </section>
         <Program> </Program>
 
-
+        
         <section id="packages">
           <h1 id="packagesTitle">Packages</h1>
+
 
           <div className="card">
             <div className="card">Package 1: Basic Tutoring (pay as you go)</div>
             <div className="card">Package 2: Intermediate Tutoring (purchase 15 hour bundle)</div>
             <div className="card">Package 3: Advanced Tutoring (purchase 28 hour bundle)</div>
           </div>
+
+          <Packages> </Packages>
 
         </section>
 
