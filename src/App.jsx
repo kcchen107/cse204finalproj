@@ -150,7 +150,7 @@ const App = () => {
 
         <section id="success">
           <h1>Hear Success Stories From Our Students</h1>
-          <h3 id="successDirections">Tap through student stories.</h3>
+          <h3 id="successDirections">Learn about our student experiences by tapping through their quotes.</h3>
 
           {successStories.length > 0 && (
             <div>
@@ -182,7 +182,8 @@ const App = () => {
 
         <section id="corevalues">
           <h1>Core Values Present Across All Programs</h1>
-          <h3 id="coreValueDirections">Click to expand image.</h3>
+          <h3 id="coreValueDirections">At Chen Academy, we believe in aiming high, helping our students accomplish challenging tasks, and leaving positive impacts. Click to expand the images.
+          </h3>
         </section>
 
 
