@@ -15,11 +15,11 @@ return (
         },
         {
           day: "Package 2 Details",
-          routine: "Package deal of 15 hours with 10% savings!",
+          routine: "Package deal of 15 hours comes with 10% savings!",
         },
         {
           day: "Package 3 Details",
-          routine: "Package deal of 28 hours with 10% savings! This package can be shared with siblings.",
+          routine: "Package deal of 28 hours comes with 10% savings! This package can be shared with siblings.",
         },
       ].map((item, index) => (
         <div
