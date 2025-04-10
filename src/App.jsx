@@ -106,13 +106,6 @@ const App = () => {
           <div className="card">
 
             <div className="card">
-              <h2> Founder Background</h2>
-              <p>
-                KC Chen is a tutor with 7+ years of experience helping students excel in their academics.
-              </p>
-            </div>
-
-            <div className="card">
               <h2>Mission Statement</h2>
               <p>
                 We provide the best tutoring service to ensure students meet their academic goals while positively impacting their lives.
@@ -128,6 +121,26 @@ const App = () => {
 
 
           </div>
+        </section>
+
+
+        <section id="programs">
+          <h1>Program Types</h1>
+          <h3 id="flipDirections">Flip over card to view a few of our program offerings.</h3>
+
+        </section>
+        <Program> </Program>
+
+
+        <section id="packages">
+          <h1 id="packagesTitle">Packages</h1>
+
+          <div className="card">
+            <div className="card">Package 1: Basic Tutoring (pay as you go)</div>
+            <div className="card">Package 2: Intermediate Tutoring (purchase 15 hour bundle)</div>
+            <div className="card">Package 3: Advanced Tutoring (purchase 28 hour bundle)</div>
+          </div>
+
         </section>
 
 
@@ -161,26 +174,6 @@ const App = () => {
           <Program> </Program>
         </Section> 
         */}
-
-
-        <section id="packages">
-          <h1 id="packagesTitle">Packages</h1>
-
-          <div className="card">
-            <div className="card">Package 1: Basic Tutoring (pay as you go)</div>
-            <div className="card">Package 2: Intermediate Tutoring (purchase 15 hour bundle)</div>
-            <div className="card">Package 3: Advanced Tutoring (purchase 28 hour bundle)</div>
-          </div>
-
-        </section>
-
-
-        <section id="programs">
-          <h1>Program Types</h1>
-          <h3 id="flipDirections">Flip over card to view a few of our program offerings.</h3>
-
-        </section>
-        <Program> </Program>
 
 
         <section id="corevalues">
