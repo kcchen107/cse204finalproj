@@ -2,19 +2,26 @@ import React, { useState } from "react";
 import "./stories.css";
 import { motion } from "framer-motion";
 import growth from "./assets/growth.jpg";
+import personalization from "./assets/personalization.jpg";
+import motivation from "./assets/motivation.jpg";
+import diligence from "./assets/diligence.jpg";
+import resilience from "./assets/resilience.jpg";
+import proven from "./assets/proven.jpg";
+import tenacity from "./assets/tenacity.jpg";
+import trustworthy from "./assets/trustworthy.jpg";
 
 const Stories = ({ stories }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
     const storiesImages = [
       growth,
-      "/personalization.jpg",
-      "/motivation.jpg",
-      "/diligence.jpg",
-      "/resilience.jpg",
-      "/proven.jpg",
-      "/tenacity.jpg",
-      "/trustworthy.jpg"
+      personalization,
+      motivation,
+      diligence,
+      resilience,
+      proven,
+      tenacity,
+      trustworthy
     ];
 
   // const storiesImages = [
@@ -37,6 +44,7 @@ const Stories = ({ stories }) => {
       <div className="stories" onClick={handleStoriesClick}>
         <p className="story-title">{stories[currentIndex]}</p>
         <img
+          id="studentStoryPic"
           src={storiesImages[currentIndex]}
           alt={stories[currentIndex]}
           className="stories-image"
