@@ -35,7 +35,7 @@ return (
         },
         {
           day: "Art",
-          routine: "Acrylic Paint, Digital Art, Pencils, Charcoal",
+          routine: "Digital Art, Pencils, Charcoal, Acrylic Paint",
         },
       ].map((item, index) => (
         <div

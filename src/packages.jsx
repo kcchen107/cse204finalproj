@@ -10,16 +10,16 @@ return (
     <div className="packages-flashcards-container">
       {[
         {
-          day: "Package 1 Details",
-          routine: "No minimum number of sessions. Do as many or as few sessions as you’d like.",
+          day: "Basic Package Information",
+          routine: "No commitment. Do as many or as few sessions as you’d like.",
         },
         {
-          day: "Package 2 Details",
-          routine: "Package deal of 15 hours comes with 10% savings!",
+          day: "Essentials Package Information",
+          routine: "Package of 15 hours comes with 10% savings!",
         },
         {
-          day: "Package 3 Details",
-          routine: "Package deal of 28 hours comes with 10% savings! This package can be shared with siblings.",
+          day: "Advanced Package Information",
+          routine: "Package of 28 hours comes with 10% savings! This package can be shared with siblings.",
         },
       ].map((item, index) => (
         <div

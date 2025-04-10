@@ -135,12 +135,12 @@ const App = () => {
         
         <section id="packages">
           <h1 id="packagesTitle">Packages</h1>
-
+          <h3 id="packagesDirections">We have packages to address all student needs, from tutoring for one semster to tutoring for multiple school years. Save up to 10% with our Essentials Package and Advanced Package!</h3>
 
           <div className="card">
-            <div className="card">Package 1: Basic Tutoring (pay as you go)</div>
-            <div className="card">Package 2: Intermediate Tutoring (purchase 15 hour bundle)</div>
-            <div className="card">Package 3: Advanced Tutoring (purchase 28 hour bundle)</div>
+            <div className="card">1. Basic Package (pay as you go)</div>
+            <div className="card">2. Essentials Package (purchase 15 hour bundle)</div>
+            <div className="card">3. Advanced Package (purchase 28 hour bundle)</div>
           </div>
 
           <Packages> </Packages>
