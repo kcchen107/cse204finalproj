@@ -37,7 +37,11 @@
     backface-visibility: hidden;
   }
 
-
+.back {
+  font-size: 40px;
+  /* padding-bottom: 30px; */
+  /* margin-bottom: 30px; */
+}
 .storiesImages {
   padding: 1rem;
   padding-top: 2rem;

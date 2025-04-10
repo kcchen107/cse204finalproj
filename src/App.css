@@ -6,6 +6,7 @@
 #topBar {
   width: 100%;
   margin: 0;
+  position: fixed;
 }
 
 #about {

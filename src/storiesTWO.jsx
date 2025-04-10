@@ -36,7 +36,7 @@ export default function App() {
 
     const storiesBack = [
         "cat",
-        "kcchen108@gmail.com || +1(339)927-4411",
+        "Connect with the CEO at kcchen108@gmail.com or +1(339)927-4411. She will advise you with her wealth of experience, recommend a package based on your needs, and curate a personalized plan.",
         "lizard",
         "kit",
         "mouse",
@@ -96,7 +96,8 @@ export default function App() {
                         setFlip((prevState) => !prevState);
                         curIndex = curIndex + 1;
                     }}>
-                        Click here to view the other side.
+                        <h2>Contact kcchen108@gmail.com or +1(339)927-4411</h2>
+                        <h4>Click here to view the other side</h4>
                     </button>
                 </motion.div>
             </motion.div>
