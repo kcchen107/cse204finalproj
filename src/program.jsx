@@ -9,10 +9,7 @@ return (
     <h1 className="section-title"></h1>
     <div className="flashcards-container">
       {[
-        {
-          day: "ath",
-          routine: "Precalculus and Calculus",
-        },
+        
         {
           day: "College Prep",
           routine: "SAT, ACT, College Essays",
@@ -34,9 +31,14 @@ return (
           routine: "Computer Science, Environmental Science, Biology",
         },
         {
+          day: "Language",
+          routine: "ESL, Chinese, Spanish",
+        },
+        {
           day: "Art",
           routine: "Digital Art, Pencils, Charcoal, Acrylic Paint",
         },
+        
       ].map((item, index) => (
         <div
           key={index}
