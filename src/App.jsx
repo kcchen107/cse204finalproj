@@ -10,6 +10,11 @@ import Packages from "./packages";
 
 
 const App = () => {
+
+  const [api, loadApi] = useState(
+  
+  );
+
   const [successStories, setSuccessStories] = useState([]);
   const [currentStory, setCurrentStory] = useState(0);
   const [formData, setFormData] = useState({
@@ -57,12 +62,28 @@ const App = () => {
     );
   };
 
-
+  // first api start
   useEffect(() => {
     fetch("https://thequoteshub.com/api/")
       .then((response) => response.json())
-      .then((data) => setSuccessStories(data.slice(0, 5))); // Use 5 success stories
+      .then((data) => setSuccessStories(data));
   }, []);
+  //  first api end
+
+  // final api
+  // useEffect(() => {
+  //   fetch("https://type.fit/api/quotes")
+  //     .then((response) => response.json())
+  //     .then((data) => loadApi(data[2].text));
+  // }, []);
+  //  final api end
+
+  const newQuote = () => {
+    fetch("https://classes.engineering.wustl.edu/cse330/content/weather_json.php")
+      .then((response) => response.json())
+      .then((data) => loadApi(data.location.city));
+  };
+
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -132,7 +153,7 @@ const App = () => {
         </section>
         <Program> </Program>
 
-        
+
         <section id="packages">
           <h1 id="packagesTitle">Packages</h1>
           <h3 id="packagesDirections">We have packages to address all student needs, from tutoring for one semster to tutoring for multiple school years. Save up to 10% with our Essentials Package and Advanced Package!</h3>
@@ -178,6 +199,17 @@ const App = () => {
           <Program> </Program>
         </Section> 
         */}
+
+        <div id="coolQuote">
+          <button id="clickInspo" onClick={newQuote}>
+            <h3>Click for inspiration</h3>
+          </button>
+
+          <div className="card" id="inspireQuote">
+            <h3>{api}</h3>
+            {/* this div is for the resulting text from the API */}
+          </div>
+        </div>
 
 
         <section id="corevalues">

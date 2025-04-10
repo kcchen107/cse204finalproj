@@ -44,6 +44,21 @@
   padding-bottom: 3rem;
 }
 
+#coolQuote {
+  margin: 20px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+#clickInspo {
+  height: 45px;
+}
+#inspireQuote {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(22, 21, 21)
+}
 #coreValueDirections {
   padding-top: 2rem;
 }
@@ -61,6 +76,13 @@
 
 
 
+#clickInspo {
+  background: #22333B;
+  color: #EAE0D5;
+
+  /* background-color: red;
+  color:purple; */
+}
 #root {
   margin: 0 auto;
   text-align: center;

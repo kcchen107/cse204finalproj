@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import "./stories.css";
 import { motion } from "framer-motion";
+import growth from "./assets/growth.jpg";
 
 const Stories = ({ stories }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
     const storiesImages = [
-      "/growth.jpg",
+      growth,
       "/personalization.jpg",
       "/motivation.jpg",
       "/diligence.jpg",
