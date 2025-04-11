@@ -170,6 +170,19 @@ const App = () => {
 
         </section>
 
+        <div id="coolQuote">
+          <button id="clickInspo" onClick={newQuote}>
+            <h3>We offer our services in various cities and countries. Click to generate an example location.</h3>
+          </button>
+
+          <div className="card" id="inspireQuote">
+            <h3>{api}</h3>
+            {/* this div is for the resulting text from the API */}
+          </div>
+        </div>
+
+
+
 
         <section id="success">
           <h1>Hear Success Stories From Our Students</h1>
@@ -201,18 +214,6 @@ const App = () => {
           <Program> </Program>
         </Section> 
         */}
-
-        <div id="coolQuote">
-          <button id="clickInspo" onClick={newQuote}>
-            <h3>We offer our services in various cities and countries. Click to generate an example location.</h3>
-          </button>
-
-          <div className="card" id="inspireQuote">
-            <h3>{api}</h3>
-            {/* this div is for the resulting text from the API */}
-          </div>
-        </div>
-
 
         <section id="corevalues">
           <h1>Core Values Present Across All Programs</h1>
