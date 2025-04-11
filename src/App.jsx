@@ -135,7 +135,7 @@ const App = () => {
             </div>
 
             <div className="card">
-              <h2>Guarantee</h2>
+              <h2>Satisfaction Guaranteed</h2>
               <p>
                 We want you to be 100% satisfied with every session and embrace feedback to enhance your experience.
               </p>
