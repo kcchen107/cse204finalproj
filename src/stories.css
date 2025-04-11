@@ -111,9 +111,13 @@
     margin-right: 0px;
   }
   #flowerImage {
-    width: 130%;
+    width: 160%;
     margin-left: 0px;
     margin-right: 0px;
+    padding-left: 30px;
+  }
+  #contactBack {
+    font-size: 15px;
   }
 
 }
