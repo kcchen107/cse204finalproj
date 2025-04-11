@@ -1,4 +1,5 @@
 .program-tips-section {
+    padding-bottom: 30px;
     margin-top: 0;
     z-index: 1;
 }
@@ -6,6 +7,7 @@
 
 .program-tips-section {
     margin-top: 0;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -20,6 +22,7 @@
 
 .program-list {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 5px;
     text-align: center;
@@ -87,6 +90,7 @@
     backface-visibility: hidden;
     border-radius: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 1rem;

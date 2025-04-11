@@ -6,10 +6,11 @@
 #contactBox {
   /* max-width: 70%; */
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  max-height: 800px;
+  max-height: 700px;
   max-width: 700px;
 }
 
@@ -38,6 +39,7 @@
   background-size: cover;
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -71,4 +73,47 @@
 
 #studentStoryPic {
   max-width: 30%;
+}
+
+
+
+@media(min-width: 300px) and (max-width:1400px) {
+  #corevalues {
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+
+  #contact {
+    width: 70%;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 10px;
+
+  }
+  #contactBox {
+    width: 60%;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+  .storiesImages {
+    width: 60%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .back {
+    width: 60%;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+  #flipContact {
+    width: 60%;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+
 }
