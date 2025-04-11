@@ -202,7 +202,7 @@ const App = () => {
 
         <div id="coolQuote">
           <button id="clickInspo" onClick={newQuote}>
-            <h3>Click for inspiration</h3>
+            <h3>We offer our services around the world. Click for an example location.</h3>
           </button>
 
           <div className="card" id="inspireQuote">
