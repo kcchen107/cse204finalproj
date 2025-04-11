@@ -14,6 +14,7 @@
   font-size: 70px;
 }
 
+/* About Section */
 #about {
   padding-top: 5rem;
 }
@@ -23,55 +24,70 @@
   padding-bottom: 3rem;
 }
 
-#success {
-  padding-top: 15rem;
-  padding-bottom: 3rem;
-}
-
-#successDirections {
-  padding-top: 2rem;
-}
-
+/* Program Section */
 #programs {
   padding-top: 15rem;
-  padding-bottom: 3rem;
 }
 
 #flipDirections {
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
+/* Packages Section */
 #packages {
   padding-top: 15rem;
 }
-#packagesTitle {
-  padding-bottom: 3rem;
+
+#packagesDirections {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
+/* Success Section */
+#success {
+  padding-top: 15rem;
+}
+
+#successDirections {
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+/* Quote Part in Success Section */
 #coolQuote {
   margin: 20px;
   display: flex;
   justify-content: center;  
   align-items: center;
+  /* padding-top: 5rem; */
 }
 
 #clickInspo {
-  height: 45px;
+  height: .4%;
 }
 #inspireQuote {
   background-color: transparent;
   border-color: transparent;
   color: rgb(22, 21, 21)
 }
-#coreValueDirections {
-  padding-top: 2rem;
+
+/* Core Values Section */
+#corevalues {
+  padding-top: 15rem;
 }
 
+#coreValueDirections {
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+/* Contact Section */
 #contact {
   padding-top: 15rem;
-  padding-bottom: 5rem;
-  padding-right: 5rem;
-  padding-left: 5rem;
+  padding-bottom: 3rem;
+  padding-right: 8rem;
+  padding-left: 8rem;
 }
 
 #contactTitle {

@@ -155,8 +155,10 @@ const App = () => {
 
 
         <section id="packages">
-          <h1 id="packagesTitle">Packages</h1>
-          <h3 id="packagesDirections">We have packages to address all student needs, from tutoring for one semster to tutoring for multiple school years. Save up to 10% with our Essentials Package and Advanced Package!</h3>
+          <div id="packagesTopBar">
+            <h1 id="packagesTitle">Packages</h1>
+            <h3 id="packagesDirections">We have packages to address all student needs, from tutoring for one semster to tutoring for multiple school years. Save up to 10% with our Essentials Package and Advanced Package!</h3>
+          </div>
 
           <div className="card">
             <div className="card">1. Basic Package (pay as you go)</div>
