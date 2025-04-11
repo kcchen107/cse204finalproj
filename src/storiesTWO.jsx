@@ -36,7 +36,7 @@ export default function App() {
 
     const storiesBack = [
         "cat",
-        "Connect with us today! Reach the CEO at kcchen108@gmail.com or +1(339)927-4411. She will advise you with her wealth of experience, recommend a package based on your needs, and curate a personalized plan.",
+        "Connect today! Reach the CEO at kcchen108@gmail.com or +1(339)927-4411. She will advise you with her wealth of experience, recommend a package based on your needs, and curate a personalized plan.",
         "lizard",
         "kit",
         "mouse",
@@ -57,6 +57,7 @@ export default function App() {
                     id="contactBox"
                     className="Card"
                 >
+                    
                     {/* Start of front side of card */}
 
                     <motion.div
@@ -68,7 +69,7 @@ export default function App() {
                         <p>{stories[curIndex]}</p>      {/* this is your caption, on the front side of your card */}
                         
                         <div className="storiesImages">
-                        <img id="flowerImage" src={storiesImages[curIndex]} />     {/* this is your image, on the front side */}
+                        <img id="flowerImage" src={storiesImages[curIndex]} />     
                         </div>
                     
                     </motion.div>
@@ -93,11 +94,11 @@ export default function App() {
                     {/* End of back side */}
 
 
-                    <button className="flipButton" onClick={() => {
+                    <button  id="flipContact" className="flipButton" onClick={() => {
                         setFlip((prevState) => !prevState);
                         curIndex = curIndex + 1;
                     }}>
-                        <h2 id="flipContact">Contact kcchen108@gmail.com or +1(339)927-4411</h2>
+                        <h2>Contact kcchen108@gmail.com or +1(339)927-4411</h2>
                         <h4>Click here to view the other side</h4>
                     </button>
                 </motion.div>
