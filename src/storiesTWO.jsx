@@ -54,6 +54,7 @@ export default function App() {
                 <motion.div
                     transition={{ duration: 0.7 }}
                     animate={{ rotateY: flip ? 0 : 180 }}
+                    id="contactBox"
                     className="Card"
                 >
                     {/* Start of front side of card */}
@@ -67,7 +68,7 @@ export default function App() {
                         <p>{stories[curIndex]}</p>      {/* this is your caption, on the front side of your card */}
                         
                         <div className="storiesImages">
-                        <img src={storiesImages[curIndex]} />     {/* this is your image, on the front side */}
+                        <img id="flowerImage" src={storiesImages[curIndex]} />     {/* this is your image, on the front side */}
                         </div>
                     
                     </motion.div>
@@ -85,7 +86,7 @@ export default function App() {
                         className="back"
                     >
                         {/* whatever that goes inside your card */}
-                        <p>{curIndex > storiesBack.length ? storiesBack[0] : storiesBack[curIndex + 1]}</p>
+                        <p id="contactBack">{curIndex > storiesBack.length ? storiesBack[0] : storiesBack[curIndex + 1]}</p>
 
                     </motion.div>
 
@@ -96,7 +97,7 @@ export default function App() {
                         setFlip((prevState) => !prevState);
                         curIndex = curIndex + 1;
                     }}>
-                        <h2>Contact kcchen108@gmail.com or +1(339)927-4411</h2>
+                        <h2 id="flipContact">Contact kcchen108@gmail.com or +1(339)927-4411</h2>
                         <h4>Click here to view the other side</h4>
                     </button>
                 </motion.div>
