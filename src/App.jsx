@@ -109,9 +109,9 @@ const App = () => {
 
       <div id="topBar">
         <header>
-          <h1>Chen Academy</h1>
+          <h1 id="academyName">Chen Academy</h1>
         </header>
-        <nav>
+        <nav id="navBar">
           <a href="#about">About Us</a>
           <a href="#programs">Programs</a>
           <a href="#packages">Packages</a>

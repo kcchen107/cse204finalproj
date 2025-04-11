@@ -9,6 +9,10 @@
   position: fixed;
   z-index: 1000;
 }
+#academyName {
+  padding: 10px;
+  font-size: 70px;
+}
 
 #about {
   padding-top: 5rem;
