@@ -36,7 +36,7 @@ export default function App() {
 
     const storiesBack = [
         "cat",
-        "Connect with the CEO at kcchen108@gmail.com or +1(339)927-4411. She will advise you with her wealth of experience, recommend a package based on your needs, and curate a personalized plan.",
+        "Connect with us today! Reach the CEO at kcchen108@gmail.com or +1(339)927-4411. She will advise you with her wealth of experience, recommend a package based on your needs, and curate a personalized plan.",
         "lizard",
         "kit",
         "mouse",
