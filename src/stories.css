@@ -82,7 +82,6 @@
     width: 50%;
     margin-left: 0px;
     margin-right: 0px;
-
   }
 
   #contact {
@@ -90,13 +89,11 @@
     margin-left: 0px;
     margin-right: 0px;
     font-size: 10px;
-
   }
   #contactBox {
     width: 60%;
     margin-left: 0px;
     margin-right: 0px;
-
   }
   .storiesImages {
     width: 60%;
@@ -107,13 +104,16 @@
     width: 60%;
     margin-left: 0px;
     margin-right: 0px;
-
   }
   #flipContact {
     width: 60%;
     margin-left: 0px;
     margin-right: 0px;
-
+  }
+  #flowerImage {
+    width: 130%;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
 }
