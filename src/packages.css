@@ -104,13 +104,13 @@
 
 
 .flashcard-front {
-    background-color: #033607;
+    background-color: rgb(63, 17, 17);
     color: #EAE0D5;
 }
 
 
 .flashcard-back {
-    background-color: rgb(63, 17, 17);
+    background-color: #033607;
     color: #EAE0D5;
     transform: rotateY(180deg);
 }
