@@ -103,7 +103,7 @@
 
 #clickInspo {
   background: #22333B;
-  color: #EAE0D5;
+  color: #ebe7e2;
 
   /* background-color: red;
   color:purple; */
@@ -207,7 +207,7 @@ section {
   padding: 15px;
   margin: 10px 0;
   background: #192c35;
-  color: #EAE0D5;
+  color: #ebe7e2;
   transition: transform 0.3s;
   overflow-x: hidden;
 }
