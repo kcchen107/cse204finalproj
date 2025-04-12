@@ -137,7 +137,7 @@ const App = () => {
             <div className="card">
               <h2>Satisfaction Guaranteed</h2>
               <p>
-                We want you to be 100% satisfied with every session and embrace feedback to enhance your experience.
+                We want you to be 100% satisfied with every session and embrace feedback to enhance your experience. If something is not working, we will make it right — no questions asked.
               </p>
             </div>
 
@@ -208,12 +208,12 @@ const App = () => {
         </Section>
 
 
-        {/* 
-          Use following code if want packages to slide in from left:
-        <Section id="programPackages">
+        
+          {/* Use following code if want packages to slide in from left: */}
+        <Section id="programPackages" direction="up">
           <Program> </Program>
         </Section> 
-        */}
+       
 
         <section id="corevalues">
           <h1>Core Values Present Across All Programs</h1>
