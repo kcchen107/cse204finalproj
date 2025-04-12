@@ -200,7 +200,6 @@ section {
   /* margin: 20px 0; */
   width: 80%;
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 .card {
@@ -412,7 +411,7 @@ textarea {
 } */
 
 @media(min-width: 300px) and (max-width:1400px) {
-  #about, #programs, #program, #packages, #coolQuote, #success, #corevalues {
+  #about, #programs, #program, #packages, #coolQuote, #corevalues {
     max-width: 100%;
     width: 95%;
     display: flex;
@@ -432,6 +431,12 @@ textarea {
   #packages-flashcards-container {
     padding-right: 100px;
   }
+  #studentStoryPic {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    min-width: 60%;
+  }  
 }
 
 /* Below code is for screens below 768px */
