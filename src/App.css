@@ -176,6 +176,7 @@ nav {
   gap: 20px;
   padding: 10px 0;
   background-color: #023a6e;
+  color: rgb(250, 250, 250);
   overflow-x: auto;
 }
 
@@ -225,7 +226,7 @@ button {
 }
 
 button:hover {
-  background-color: #003366;
+  background-color: #430b68;
 }
 
 input,
