@@ -130,7 +130,7 @@ const App = () => {
             <div className="card">
               <h2>Mission Statement</h2>
               <p>
-                We provide the best tutoring service to ensure students meet their academic goals while positively impacting their lives.
+                We provide the best tutoring service to ensure students meet their academic goals while positively impacting their lives. Our mission is to empower every learner through personalized, engaging support that goes beyond the classroom. By fostering critical thinking, nurturing curiosity, and adapting to individual learning styles, we help students not only succeed academically but also grow as future leaders.
               </p>
             </div>
 
