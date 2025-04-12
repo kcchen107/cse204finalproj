@@ -1,8 +1,6 @@
 *{
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
-  overflow-x: hidden;
 }
 @font-face {
   font-family: "customfont";
@@ -349,7 +347,7 @@ textarea {
   transition: width 0.8s ease-in-out, margin 0.8s ease-in-out, padding 0.8s ease-in-out;
 }
 
-@media(min-width: 300px) and (max-width:1400px) {
+/* @media(min-width: 300px) and (max-width:1400px) {
   #about {
     max-width: 600px;
     font: 15px;
@@ -367,7 +365,6 @@ textarea {
     font: 15px;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
     justify-content: center;
     align-content: center;
     margin-left: 0px;
@@ -412,6 +409,27 @@ textarea {
 
   }
 
+} */
+
+@media(min-width: 300px) and (max-width:1400px) {
+  #about, #programs, #program, #packages, #coolQuote, #success, #corevalues {
+    max-width: 100%;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+  }
+
+  .flashcards-container {
+    width: 100%;
+    overflow-x: hidden;
+  }
 }
 
 /* Below code is for screens below 768px */
