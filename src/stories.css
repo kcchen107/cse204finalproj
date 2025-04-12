@@ -88,12 +88,14 @@
     width: 70%;
     margin-left: 0px;
     margin-right: 0px;
-    font-size: 10px;
   }
   #contactBox {
     width: 60%;
     margin-left: 0px;
     margin-right: 0px;
+  }
+  #storiesSecond {
+    font-size: 10px;
   }
   .storiesImages {
     width: 60%;
