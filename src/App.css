@@ -409,7 +409,7 @@ textarea {
 } */
 
 @media(min-width: 300px) and (max-width:1400px) {
-  #about, #programs, #program, #packages, #coolQuote, #corevalues {
+  #about, #programs, #packages, #coolQuote, #corevalues {
     max-width: 100%;
     width: 95%;
     display: flex;
@@ -422,12 +422,19 @@ textarea {
     padding-right: 0;
     overflow-x: hidden;
   }
+  #program {
+    max-width: 100%;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+  }
   .flashcards-container {
     width: 100%;
     overflow-x: hidden;
-  }
-  #packages-flashcards-container {
-    padding-right: 100px;
   }
   #studentStoryPic {
     max-width: 100%;
