@@ -93,8 +93,6 @@
 #contact {
   padding-top: 15rem;
   padding-bottom: 3rem;
-  padding-right: 8rem;
-  padding-left: 8rem;
 }
 
 #contactTitle {
@@ -437,6 +435,9 @@ textarea {
     height: auto;
     min-width: 60%;
   }  
+  .packages-gallery {
+    max-width: 30%;
+  }
 }
 
 /* Below code is for screens below 768px */
@@ -448,11 +449,6 @@ textarea {
   nav {
     font-size: 0.9rem;
     padding: 8px 0;
-  }
-
-  section {
-    width: 95%;
-    padding: 0 10px;
   }
 
   .card {
