@@ -1,6 +1,8 @@
 *{
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: "customfont";
@@ -158,6 +160,8 @@ body {
   padding: 0;
   background-color: #fefefe;
   color: #333;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 header {

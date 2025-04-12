@@ -82,44 +82,53 @@
     width: 50%;
     margin-left: 0px;
     margin-right: 0px;
+    overflow-x: hidden;
   }
 
   #contact {
     width: 70%;
     margin-left: 0px;
     margin-right: 0px;
+    overflow-x: hidden;
   }
   #contactBox {
     width: 60%;
     margin-left: 0px;
     margin-right: 0px;
+    overflow-x: hidden;
   }
   #storiesSecond {
     font-size: 10px;
+    overflow-x: hidden;
   }
   .storiesImages {
     width: 60%;
     margin-left: 0px;
     margin-right: 0px;
+    overflow-x: hidden;
   }
   .back {
     width: 60%;
     margin-left: 0px;
     margin-right: 0px;
+    overflow-x: hidden;
   }
   #flipContact {
     width: 60%;
     margin-left: 0px;
     margin-right: 0px;
+    overflow-x: hidden;
   }
   #flowerImage {
     width: 160%;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 30px;
+    overflow-x: hidden;
   }
   #contactBack {
     font-size: 15px;
+    overflow-x: hidden;
   }
 
 }
