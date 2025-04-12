@@ -116,6 +116,8 @@
 #root {
   margin: 0 auto;
   text-align: center;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -178,6 +180,7 @@ nav {
   gap: 20px;
   padding: 10px 0;
   background-color: #023a6e;
+  overflow-x: auto;
 }
 
 nav a {
@@ -198,6 +201,8 @@ section {
   /* code below centers page */
   /* margin: 20px 0; */
   width: 80%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .card {
@@ -208,6 +213,7 @@ section {
   background: #22333B;
   color: #EAE0D5;
   transition: transform 0.3s;
+  overflow-x: hidden;
 }
 
 .card:hover {
@@ -408,94 +414,34 @@ textarea {
 
 }
 
-/* @media(max-width: 500px) {
-  #about {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
+/* Below code is for screens below 768px */
+@media (max-width: 768px) {
+  #topBar header h1 {
+    font-size: 2rem;
   }
 
-  #aboutTitle {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
+  nav {
+    font-size: 0.9rem;
+    padding: 8px 0;
   }
 
-  #programs {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
+  section {
+    width: 95%;
+    padding: 0 10px;
   }
 
-  #flipDirections {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
+  .card {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
   }
 
-  #packages {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
+  button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
   }
 
-  #packagesDirections {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
+  input, textarea {
+    font-size: 1rem;
   }
-
-  #success {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #successDirections {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #coolQuote {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #clickInspo {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #inspireQuote {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #corevalues {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #coreValueDirections {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #contact {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #contactTitle {
-    width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-} */
+}
