@@ -425,10 +425,12 @@ textarea {
     padding-right: 0;
     overflow-x: hidden;
   }
-
   .flashcards-container {
     width: 100%;
     overflow-x: hidden;
+  }
+  #program {
+    padding-right: 130px;
   }
 }
 
