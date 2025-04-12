@@ -208,12 +208,12 @@ const App = () => {
         </Section>
 
 
-        
-          {/* Use following code if want packages to slide in from left: */}
+        {/* 
+          Use following code if want packages to slide in from left:
         <Section id="programPackages" direction="up">
           <Program> </Program>
         </Section> 
-       
+        */}
 
         <section id="corevalues">
           <h1>Core Values Present Across All Programs</h1>
