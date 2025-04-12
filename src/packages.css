@@ -114,3 +114,12 @@
     color: #EAE0D5;
     transform: rotateY(180deg);
 }
+
+@media(min-width: 300px) and (max-width:1400px) {
+
+    .packages-flashcards-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
