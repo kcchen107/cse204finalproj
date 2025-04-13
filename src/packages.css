@@ -60,7 +60,7 @@
 
 
 .flashcards-container::-webkit-scrollbar-thumb {
-    background-color: #6E0E0A;
+    background-color: #033607;
     border-radius: 4px;
 }
 
@@ -104,14 +104,14 @@
 
 
 .flashcard-front {
-    background-color: rgb(63, 17, 17);
+    background-color: #033607;
     color: #ebe7e2;
 }
 
 
 .flashcard-back {
-    background-color: #033607;
-    color: #EAE0D5;
+    background-color: #034c09;
+    color: #ebe7e2;
     transform: rotateY(180deg);
 }
 
