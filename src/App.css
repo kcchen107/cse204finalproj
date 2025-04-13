@@ -1,7 +1,8 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
+
 @font-face {
   font-family: "customfont";
   src: local("customfont"), url("./Abel-Regular.ttf") format("truetype");
@@ -341,7 +342,8 @@ textarea {
 }
 
 
-#about, #aboutTitle {
+#about,
+#aboutTitle {
   transition: width 0.8s ease-in-out, margin 0.8s ease-in-out, padding 0.8s ease-in-out;
 }
 
@@ -410,7 +412,12 @@ textarea {
 } */
 
 @media(min-width: 300px) and (max-width:1400px) {
-  #about, #programs, #packages, #coolQuote, #corevalues {
+
+  #about,
+  #programs,
+  #packages,
+  #coolQuote,
+  #corevalues {
     max-width: 100%;
     width: 95%;
     display: flex;
@@ -423,6 +430,7 @@ textarea {
     padding-right: 0;
     overflow-x: hidden;
   }
+
   #program {
     max-width: 100%;
     width: 95%;
@@ -433,16 +441,19 @@ textarea {
     align-content: center;
     overflow-x: hidden;
   }
+
   .flashcards-container {
     width: 100%;
     overflow-x: hidden;
   }
+
   #studentStoryPic {
     max-width: 100%;
     width: auto;
     height: auto;
     min-width: 60%;
-  }  
+  }
+
   .packages-gallery {
     max-width: 30%;
   }
@@ -470,7 +481,15 @@ textarea {
     padding: 8px 12px;
   }
 
-  input, textarea {
+  input,
+  textarea {
     font-size: 1rem;
+  }
+
+  #studentStoryPic {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    min-width: 90%;
   }
 }
